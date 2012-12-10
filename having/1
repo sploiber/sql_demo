@@ -1,0 +1,7 @@
+-- how many orders did each customer make, but only look at customers
+-- who ordered more than one
+use sql_demo;
+select count(customerid), customerid
+from items_ordered
+group by customerid
+having count(customerid) > 1;

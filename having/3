@@ -1,0 +1,7 @@
+-- item, max price and min price for each specific item in the table, but
+-- only for items over 190
+use sql_demo;
+select item, max(price), min(price)
+from items_ordered
+group by item
+having max(price) > 190;

@@ -1,0 +1,7 @@
+-- how many people are in each unique state, but have more than one person
+-- in the state
+use sql_demo;
+select count(state), state
+from customers
+group by state
+having count(state) > 1;

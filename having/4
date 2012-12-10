@@ -1,0 +1,6 @@
+-- how many orders did each customer make?
+use sql_demo;
+select sum(quantity), customerid
+from items_ordered
+group by customerid
+having sum(quantity) > 1
