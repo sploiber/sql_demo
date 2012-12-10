@@ -1,0 +1,6 @@
+-- Inner join / equijoin
+use sql_demo;
+select i.customerid, c.first, c.last, i.order_date, i.item, i.price, c.state
+from items_ordered i, customers c
+where i.customerid = c.customerid
+order by c.state desc

@@ -1,0 +1,5 @@
+-- Inner join / equijoin
+use sql_demo;
+select i.item, c.first, c.last
+from items_ordered i, customers c
+where i.customerid = c.customerid
