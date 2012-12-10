@@ -1,0 +1,12 @@
+use sqlcourse;
+insert into empinfo (id,first,last,age,city,state) values (99980,'John','Jones',45,'Payson','Arizona');
+insert into empinfo (id,first,last,age,city,state) values (99982,'Mary','Jones',25,'Payson','Arizona');
+insert into empinfo (id,first,last,age,city,state) values (88232,'Eric','Edwards',32,'San Diego','California');
+insert into empinfo (id,first,last,age,city,state) values (88233,'Mary Ann','Edwards',32,'Phoenix','Arizona');
+insert into empinfo (id,first,last,age,city,state) values (98002,'Ginger','Howell',42,'Cottonwood','Arizona');
+insert into empinfo (id,first,last,age,city,state) values (92001,'Sebastian','Smith',23,'Gila Bend','Arizona');
+insert into empinfo (id,first,last,age,city,state) values (22322,'Gus','Gray',35,'Bagdad','Arizona');
+insert into empinfo (id,first,last,age,city,state) values (32326,'Mary Ann','May',52,'Tucson','Arizona');
+insert into empinfo (id,first,last,age,city,state) values (32327,'Erica','Williams',60,'Show Low','Arizona');
+insert into empinfo (id,first,last,age,city,state) values (32380,'Leroy','Brown',22,'Pinetop','Arizona');
+insert into empinfo (id,first,last,age,city,state) values (32382,'Elroy','Cleaver',22,'Globe','Arizona');

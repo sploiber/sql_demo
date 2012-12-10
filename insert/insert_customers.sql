@@ -1,0 +1,18 @@
+use sqlcourse;
+insert into customers (customerid,first,last,city,state) values (10101,'John','Gray','Lynden','Washington');
+insert into customers (customerid,first,last,city,state) values (10298,'Leroy','Brown','Pinetop','Arizona');
+insert into customers (customerid,first,last,city,state) values (10299,'Elroy','Keller','Snoqualmie','Washington');
+insert into customers (customerid,first,last,city,state) values (10315,'Lisa','Jones','Oshkosh','Wisconsin');
+insert into customers (customerid,first,last,city,state) values (10325,'Ginger','Schultz','Pocatello','Idaho');
+insert into customers (customerid,first,last,city,state) values (10329,'Kelly','Mendoza','Kailua','Hawaii');
+insert into customers (customerid,first,last,city,state) values (10330,'Shawn','Dalton','Cannon Beach','Oregon');
+insert into customers (customerid,first,last,city,state) values (10338,'Michael','Howell','Tillamook','Oregon');
+insert into customers (customerid,first,last,city,state) values (10339,'Anthony','Sanchez','Winslow','Arizona');
+insert into customers (customerid,first,last,city,state) values (10408,'Elroy','Cleaver','Globe','Arizona');
+insert into customers (customerid,first,last,city,state) values (10410,'Mary Ann','Howell','Charleston','South Carolina');
+insert into customers (customerid,first,last,city,state) values (10413,'Donald','Davids','Gila Bend','Arizona');
+insert into customers (customerid,first,last,city,state) values (10419,'Linda','Sakahara','Nogales','Arizona');
+insert into customers (customerid,first,last,city,state) values (10429,'Sarah','Graham','Greensboro','North Carolina');
+insert into customers (customerid,first,last,city,state) values (10438,'Kevin','Smith','Durango','Colorado');
+insert into customers (customerid,first,last,city,state) values (10439,'Conrad','Giles','Telluride','Colorado');
+insert into customers (customerid,first,last,city,state) values (10449,'Isabela','Moore','Yuma','Arizona');
