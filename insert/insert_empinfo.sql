@@ -1,4 +1,4 @@
-use sqlcourse;
+use sql_demo;
 insert into empinfo (id,first,last,age,city,state) values (99980,'John','Jones',45,'Payson','Arizona');
 insert into empinfo (id,first,last,age,city,state) values (99982,'Mary','Jones',25,'Payson','Arizona');
 insert into empinfo (id,first,last,age,city,state) values (88232,'Eric','Edwards',32,'San Diego','California');

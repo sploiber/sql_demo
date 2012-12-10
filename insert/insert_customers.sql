@@ -1,4 +1,4 @@
-use sqlcourse;
+use sql_demo;
 insert into customers (customerid,first,last,city,state) values (10101,'John','Gray','Lynden','Washington');
 insert into customers (customerid,first,last,city,state) values (10298,'Leroy','Brown','Pinetop','Arizona');
 insert into customers (customerid,first,last,city,state) values (10299,'Elroy','Keller','Snoqualmie','Washington');

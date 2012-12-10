@@ -1,4 +1,4 @@
-use sqlcourse;
+use sql_demo;
 insert into items_ordered (customerid,order_date,item,quantity,price) values (10330,'1999-06-30','Pogo stick',1,28.0);
 insert into items_ordered (customerid,order_date,item,quantity,price) values (10101,'1999-06-30','Raft',1,58.0);
 insert into items_ordered (customerid,order_date,item,quantity,price) values (10298,'1999-07-01','Skateboard',1,33.0);
