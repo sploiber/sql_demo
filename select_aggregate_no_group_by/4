@@ -1,0 +1,4 @@
+-- single column maxes and mins
+use sql_demo;
+select max(price), min(price), max(quantity) from items_ordered;
+

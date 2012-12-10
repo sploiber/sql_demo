@@ -1,0 +1,4 @@
+-- maximum priced item purchased in December
+use sql_demo;
+select avg(price), max(price) from items_ordered
+where order_date like '%-12-%';

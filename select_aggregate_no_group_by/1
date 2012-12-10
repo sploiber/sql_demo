@@ -1,0 +1,2 @@
+use sql_demo;
+select count(*) from items_ordered;

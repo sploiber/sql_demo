@@ -1,0 +1,4 @@
+-- Get the minimum price of all tents
+use sql_demo;
+select min(price) from items_ordered
+where item like '%tent%';

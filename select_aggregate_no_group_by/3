@@ -1,0 +1,4 @@
+-- aggregation on single column
+use sql_demo;
+select avg(price) from items_ordered;
+

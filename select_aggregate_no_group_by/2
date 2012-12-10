@@ -1,0 +1,3 @@
+use sql_demo;
+select count(first) from customers
+
