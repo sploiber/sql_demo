@@ -1,0 +1,5 @@
+-- item, maximum price, and minimum price for each specific item in the table
+use sql_demo;
+select min(price), max(price), count(price), item
+from items_ordered
+group by item;

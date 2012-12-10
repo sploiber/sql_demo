@@ -1,0 +1,5 @@
+-- how many people in each unique state in customers
+use sql_demo;
+select count(state), state
+from customers
+group by state;

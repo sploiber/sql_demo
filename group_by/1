@@ -1,0 +1,5 @@
+-- maximum priced item for each month
+use sql_demo;
+select max(price), item
+from items_ordered
+group by item;

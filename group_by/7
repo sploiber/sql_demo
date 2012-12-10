@@ -1,0 +1,5 @@
+-- sum of all prices for each customer (not useful, just shows sum)
+use sql_demo;
+select sum(price), customerid
+from items_ordered
+group by customerid;

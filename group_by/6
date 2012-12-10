@@ -1,0 +1,5 @@
+-- how many orders did each customer make (conditions use 'having')
+use sql_demo;
+select count(customerid), customerid
+from items_ordered
+group by customerid;

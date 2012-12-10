@@ -1,0 +1,5 @@
+-- maximum priced item for each customer, and how many things they bought
+use sql_demo;
+select count(price), max(price), customerid
+from items_ordered
+group by customerid;

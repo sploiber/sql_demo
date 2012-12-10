@@ -1,0 +1,5 @@
+-- maximum priced item for each grouped quantity
+use sql_demo;
+select max(price), quantity
+from items_ordered
+group by quantity;
