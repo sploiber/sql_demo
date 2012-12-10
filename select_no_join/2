@@ -1,0 +1,3 @@
+use sql_demo;
+select * from items_ordered
+where item like '%tent%';

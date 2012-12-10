@@ -1,0 +1,4 @@
+use sql_demo;
+select item, price
+from items_ordered
+where item like 's%' or item like 'p%' or item like 'f%'

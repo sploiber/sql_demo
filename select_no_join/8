@@ -1,0 +1,5 @@
+-- firstname, city, state from, customers for set of states
+use sql_demo;
+select first, city, state 
+from customers
+where state not in ('Arizona', 'Washington', 'Colorado', 'Hawaii')

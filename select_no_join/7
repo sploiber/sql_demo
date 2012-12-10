@@ -1,0 +1,5 @@
+-- date, item, price for items_ordered for price in between 10 to 80
+use sql_demo;
+select order_date, item, price
+from items_ordered
+where price not between 10 and 80

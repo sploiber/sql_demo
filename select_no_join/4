@@ -1,0 +1,2 @@
+use sql_demo;
+select distinct item from items_ordered;

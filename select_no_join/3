@@ -1,0 +1,3 @@
+use sql_demo;
+select customerid, order_date, item from items_ordered
+where item like 's%';
