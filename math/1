@@ -1,0 +1,5 @@
+-- Get the per unit price of all items
+use sql_demo;
+select item, quantity, round(price/quantity,2) from items_ordered
+where quantity > 1
+
