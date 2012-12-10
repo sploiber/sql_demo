@@ -1,0 +1,5 @@
+-- display customers sorted by lastname
+use sql_demo;
+select last, first, city 
+from customers
+order by last desc;

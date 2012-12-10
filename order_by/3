@@ -1,0 +1,7 @@
+-- select the item and price for all the items in the items_ordered table
+-- that the price is greater than 10, and sort ascending on price
+use sql_demo;
+select item, price
+from items_ordered
+where price > 10
+order by price asc
