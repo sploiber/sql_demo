@@ -1,0 +1,64 @@
+== SQL_Demo
+
+SQL Demo is for SQL preparation for interviews
+
+== Notes for SQL Demo
+
+1. create database sql_demo;
+
+2. SQL select can use =, LIKE/%, >, <, and <>, for matching columns.
+
+3. Data types in MySQL are integer, varchar(x), char(x), number(size), 
+   number(size,d)/decimal, date
+
+4. Constraints: not null, unique, primary key
+
+5. Strings in single quotes, numbers not
+
+6. The create directory creates (empinfo, customers, and items_ordered).
+
+7. The insert directory inserts records into (empinfo, customers and
+   items_ordered).
+
+8. Syntax note: update set ... where ... [and]
+
+9. Syntax note: delete from where...
+
+10. Syntax note: drop table x;
+
+11. Syntax note: select [all | distinct] columns from tables [where] [group by] [having] [order by] [asc desc]
+
+12. Syntax note: in (), between-and-, with nots, can be used in select. 
+    Note that we could use in () to compose composite queries.
+
+13. aggregate functions: 
+     min - smallest value in given column
+     max - largest value in given column
+     sum - sum of values in given column
+     avg - average values in given column
+     count - number of values in given column
+     count(*) - number of rows in a table
+    These can be used without group by, but are required by it
+
+14. The directory "select_no_join" introduces various SELECT constructions,
+    without aggregation, without joins, and without group by.
+
+15. The directory "select_agggregate_no_group_by" introduces SELECT 
+    constructions, with aggregation, without joins, and without group by.
+
+16. sorting (order by) is asc by default
+
+17. The directory "order_by" introduces sorting the results using "order_by".
+
+18. The directory "group_by" introduces querying using "group by".
+
+19. Syntax note: abs(x), sign(x), mod(x,y), floor(x), ceiling(x), 
+    power(x,y), round(x), round(x,d), sqrt(x)
+
+20. The directory "math" is for using the math functions listed in the
+    previous step.
+
+21. The directory "having" is for "group_by" with constraints.
+
+22. The directory "join" introduces inner join/equijoin, and left join,
+    and right join.
